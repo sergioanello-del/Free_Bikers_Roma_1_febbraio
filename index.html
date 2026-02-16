@@ -310,7 +310,7 @@
             color: #ffffff;
             background: linear-gradient(45deg, #ff0000, #990000);
             border: 3px solid #ffffff; /* Bordo più sottile */
-            border-radius: 8px; /* Arrotondamento proporzionato */
+            border-radius: 20px; /* Arrotondamento proporzionato */
             box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
             transition: transform 0.2s ease-in-out;
             cursor: pointer;
@@ -404,11 +404,7 @@
         <div class="relative z-10 container mx-auto px-4 text-center">
 
 
-
-
-
-
-            <div data-aos="fade-down">
+            <div data-aos="fade-down"  style="margin-top:80px;">
 				<!-- <span class="text-slate-400 font-bold text-sm tracking-widest uppercase bg-slate-900/50 px-3 py-1 rounded-full border border-slate-500/30 italic">Evento Concluso</span> -->
                 <h2 class="text-amber-500 font-bold tracking-[0.3em] uppercase mb-4">Domenica 1 Febbraio 2026</h2>
                 <h1 class="text-6xl md:text-9xl font-black mb-8 text-white italic uppercase tracking-tighter leading-none">
@@ -573,7 +569,7 @@
     /* --- LIGHTBOX / OVERLAY --- */
     #fbr-overlay {
         position: fixed;
-        top: 0; left: 0; width: 86%; height: 100%;
+        top: 0; left: 0; width: 100%; height: 100%;
         background: var(--fbr-overlay-bg);
         z-index: 99999;
         display: flex;
@@ -931,9 +927,6 @@
         backdrop-filter: blur(10px);
         padding: 20px;
 
-
-
-		    max-width: 86%;
     }
 
     .fb-modal-overlay.active { display: flex; }
@@ -1096,23 +1089,21 @@
 
 
 <!-- fine video gallery -->
+<div style="background-color:#000000;">
+<section id="programma" class="py-24 bg-black relative mx-auto" style="width:70%">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-20" data-aos="fade-up">
+            <h3 class="text-amber-500 font-bold uppercase tracking-[0.4em] mb-2">Roadmap</h3>
+            <h2 class="text-5xl md:text-7xl font-black text-white italic uppercase tracking-tighter">Programma Ufficiale</h2>
+        </div>
+
+        <div class="timeline-container max-w-5xl mx-auto">
+            <div class="timeline-line"></div>
 
 
 
 
-
-    <!-- Programma Ufficiale -->
-    <section id="programma" class="py-24 bg-black relative">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-20" data-aos="fade-up">
-                <h3 class="text-amber-500 font-bold uppercase tracking-[0.4em] mb-2">Roadmap</h3>
-                <h2 class="text-5xl md:text-7xl font-black text-white italic uppercase tracking-tighter">Programma Ufficiale</h2>
-            </div>
-
-            <div class="timeline-container max-w-5xl mx-auto">
-                <div class="timeline-line"></div>
-
-                <!-- Punto 1 -->
+			  <!-- Punto 1 -->
                 <div class="timeline-item flex flex-col md:flex-row" data-aos="fade-right">
                     <div class="timeline-dot"></div>
                     <div class="pl-12 md:pl-0 md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
@@ -1139,7 +1130,7 @@
                         </div>
                     </div>
                     <div class="pl-12 md:pl-12 md:w-1/2 order-1 md:order-2">
-                        <span class="text-amber-500 font-bold text-2xl italic">09:00</span>
+                        <span class="text-amber-500 font-bold text-2xl italic" >09:00</span>
                     </div>
                 </div>
 
@@ -1230,11 +1221,20 @@
                     </div>
                 </div>
 
-            </div>
+
+
+
+
         </div>
-    </section>
+    </div>
+</section>
+
+</div>
+
 
     <!-- Storia & Leggenda -->
+
+
     <section id="storia" class="py-24 bg-white/5 overflow-hidden">
         <div class="container mx-auto px-6">
             
